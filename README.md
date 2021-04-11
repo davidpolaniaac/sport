@@ -1,4 +1,13 @@
 # Sport
+An application for team and player management. The purpose of this development is to learn about angular and typescript
+
+## Functionality
+
+Creation of player teams
+
+Firebase project [Hosting](https://sport-a7c2e.web.app/)
+
+![App](app.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
