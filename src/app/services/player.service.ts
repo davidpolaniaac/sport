@@ -18,7 +18,7 @@ export class PlayerService {
   getPlayers(): Observable<Player[]> {
     return this.playersDb.snapshotChanges().pipe(
       map((changes) => {
-        return changes.map((c) => ({ $key: c.payload.key, ...c.payload.val() }))
+        return changes.map((c) => ({ $key: c.payload.key, ...c.payload.val() } as Player)) 
       })
     )
   } 
