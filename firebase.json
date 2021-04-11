@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "sport-a7c2e",
     "public": "dist/sport",
     "ignore": [
       "firebase.json",
